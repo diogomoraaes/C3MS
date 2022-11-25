@@ -1,0 +1,103 @@
+<html lang="en" dir="ltr"> 
+<head> 
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="HEADER-1.css">
+
+    <style>
+        
+        .center {
+          margin: 0;
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+        }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
+        </style>
+
+</head>
+<body> 
+
+
+
+    <header class="menu-principal">
+
+    <ul class="nav">
+        <div class="header-1">
+        <div class="LOGO">
+            
+            <img src="LOGO.png"/>
+        </div>
+    </div>
+    .
+    </ul>
+    </header>
+<h1>Esse site aborda os principais conteúdos referente às 5 áreas do conhecimento aprendidos pelo alunos do 3º ano do Ensino Médio Técnico do SENAC em 2022</h1> 
+
+
+
+
+<div class="container">
+    <div class="center">
+    <ul class="navbutton">
+    <li><button class="btn first"><a href="CH.HTML">Ciências Humanas</a> </button></li>
+    <li><button class="btn first"><a hREf="CN.HTML">Ciências da Natureza</a> </button></li>
+    <li><button class="btn first"><a hREf="LIN.HTML">Linguagens</a></button></li>
+    <li><button class="btn first"><a hREf="MAT.HTML">Matemática</a></button></li>
+    <li><button class="btn first"><a hREf="T.I.HTML">T.I</a></button></li>
+    <li><button class="btn first"><a hREf="CUR.HTML">Currículos</a></button></li>
+    </ul>
+    </div>
+  </div>
+
+  <p> Aperte o play para escutar</p>
+
+  <audio controls autoplay>
+    <source src="all-star.mp3" type="audio/mpeg">
+  </audio>
+  
+  <head>
+    <script type="text/javascript">
+    function time()
+    {
+    today=new Date();
+    h=today.getHours();
+    m=today.getMinutes();
+    s=today.getSeconds();
+    document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+    setTimeout('time()',500);
+  }
+    </script>
+    </head>
+    <body onload="time()">
+    <div id="txt"></div>
+    </body>
+
+
+</body> 
+
+
+
+</html> 
